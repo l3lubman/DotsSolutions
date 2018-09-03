@@ -21,15 +21,17 @@
             android:layout_height="wrap_content" />
         <!--Phone-->
         <EditText
+            android:id="@+id/edtIdCustomer"
             android:textSize="@dimen/h3"
             android:background="@drawable/textfiled1"
-            android:hint="XXX-XXXX"
-            android:inputType="phone"
+            android:hint="ID Customer"
+            android:inputType="number"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
         <!--Login-->
         <Button
+            android:id="@+id/btnLogin"
             android:background="@drawable/bg_buttom"
             android:text="Login"
             android:layout_width="match_parent"
